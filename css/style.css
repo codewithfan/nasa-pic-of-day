@@ -1,0 +1,55 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
+/* Set standard font size for accessibility */
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-color: black;
+  color: yellow;
+  font-size: 2rem;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+ul {
+  list-style: none;
+
+}
+
+li {
+  display: inline-block;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
