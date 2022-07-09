@@ -24,13 +24,15 @@ body {
   background-color: black;
   color: yellow;
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+header {
+  height: 100px;
 }
 
 
