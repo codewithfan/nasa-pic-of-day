@@ -7,7 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* Set standard font size for accessibility */
@@ -52,6 +52,12 @@ main {
   gap: 15px;
 }
 
+.button-74, input {
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  background-color: yellow;
+}
 
 img{
   display: block;
@@ -63,3 +69,22 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+/* CSS */
+
+.button-74:hover {
+  background-color: rgb(49, 180, 34);
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
